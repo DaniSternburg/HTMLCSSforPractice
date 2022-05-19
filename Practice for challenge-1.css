@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  .menu{
+    /*border: 1px solid black;*/
+    height: 1342px;
+    margin: 0 auto;
+    width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .dessert{
+    width: 300px;
+  }
+  
+  .cover{
+    height: 315px;
+    background-color: lightblue;
+    position: relative;
+    
+  }
+  
+  .cover .handpicked{
+    position: absolute;
+    left: 20px;
+    background: #3F5D45;
+    color: #EAF0ED;
+    width:36px;
+    height: 106.73px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    
+  }
+
+  .cover .handpicked p{
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 13.5px;
+
+  }
+  
+  
+  .cover img{
+    position: absolute;
+    
+  }
+
+  .cover .favor{
+      position: absolute;
+      right: 22px;
+      top: 19px;
+  }
+  
+  .shop{
+    color: #3F5D45;
+    display: flex;
+    height: 56px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2.8;
+  }
+  
+  .shop li{
+    border: 1px solid #EAF0ED;
+  }
+  
+  .shop .bread{
+    width: 170px;
+  }
+  
+  .shop .money{
+    width: 130px;
+  }
+  
+  .pay{
+    background: #EAF0ED;
+    line-height: 2.7;
+  }
+  
+  .pay a{
+    text-align: center;
+    color: #3F5D45;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    height: 65px;
+     
+  }
+  
+  .pay a:hover{
+    color: #EAF0ED;
+    background: #3F5D45;
+      
+  }
